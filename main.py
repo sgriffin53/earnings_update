@@ -43,6 +43,6 @@ while True:
     content = get_page_content()
     print(content)
     if content != last_content:
-        if last_content != '': playsound.playsound('c:/python/cha-ching-7053.mp3')
+        if last_content != '': playsound.playsound('cha-ching-7053.mp3')
     last_content = content
     time.sleep(200)
